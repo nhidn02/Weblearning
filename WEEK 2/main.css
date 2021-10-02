@@ -1,0 +1,25 @@
+#pic1{
+  height: 100%;
+  width: 100%;
+}
+
+.box{
+  padding: 10px 0px 10px 45%;
+  border-width: 30vw;
+}
+
+.box1{
+  height: 50%;
+  width: 30%;
+  padding: 20px 0px 20px 40%;
+  border: 20px;
+}
+
+.content{
+  padding: 10px 0% 10px 40%;
+  border-width: 30%;
+}
+
+.box2{
+  padding-left: 45%;
+}
