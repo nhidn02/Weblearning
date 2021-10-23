@@ -8,18 +8,15 @@ html {
   font-family: Tahoma;
 }
 
-#main {
-
-}
-
 #header {
   height: 50px;
   background-color: #000;
   display: flex;
+  position: relative;
 }
 
 #nav_left {
-  width: 50%;
+  width: 60%;
   color: #fff;
   text-decoration: none;
   line-height: 50px;
@@ -28,13 +25,11 @@ html {
 }
 
 #nav {
-  width: 50%;
-  position: left;
+  width: 40%;
 }
 
 #nav li {
   display: inline-block;
-  position: left;
 }
 
 #nav li a {
@@ -85,10 +80,14 @@ html {
   padding: 0 40px 0 30px;
 }
 
-#slide img {
-  height: 40vh;
+#slide {
+  position: relative;
+  height: 50vh;
   width: 100%;
-  padding-top: 30px;;
+  background-image: url(https://freshfruitvietnam.vn/upload/images/2020/03/1405x562-1585553438-single_banner1-Nen.jpg);
+  background-size: 70vw 50vh;
+  background-repeat: no-repeat;
+  background-position-y: 20px;
 }
 
 #order {
@@ -97,14 +96,14 @@ html {
 
 .sp {
   height: 500px;
-  width: 300px;
-  padding-top: 50px;
+  width: 40%;
+  padding-top: 30px;
   display: flexbox;
 }
 
 .sp img {
   height: 200px;
-  width: 280px;
+  width: 100%;
 }
 
 .fruit {
