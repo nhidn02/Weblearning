@@ -9,128 +9,62 @@ html {
 }
 
 #header {
-  height: 50px;
-  background-color: #000;
-  display: flex;
-  position: relative;
-}
-
-#nav_left {
-  width: 60%;
-  color: #fff;
-  text-decoration: none;
-  line-height: 50px;
-  padding: 0 10px;
-  display: flex;
-}
-
-#nav {
-  width: 40%;
-}
-
-#nav li {
-  display: inline-block;
-}
-
-#nav li a {
-  color: #c4d1db;
-  text-decoration: none;
-  line-height: 50px;
-  padding: 0 27px;
-  display: inline-block;
-}
-
-#nav li:hover a {
-  color: #fff;
-}
-
-#content {
-  display: flex;
-}
-
-#left {
-  width: 30%;
-  height: 90vh;
-}
-
-#shop {
-  padding: 10px 20px;
-  line-height: 70px;
-  display: block;
-}
-
-#category {
   height: 100px;
-  padding: 0 10px;
-  font-size: 20px;
-}
-
-.cate {
-  padding: 5px;
-  border: 2px;
-}
-
-.cate a {
-  text-decoration: none;
-  color: #000;
-}
-
-#right {
-  width: 70%;
-  padding: 0 40px 0 30px;
-}
-
-#slide {
-  position: relative;
-  height: 50vh;
-  width: 100%;
-  background-image: url(https://freshfruitvietnam.vn/upload/images/2020/03/1405x562-1585553438-single_banner1-Nen.jpg);
-  background-size: 70vw 50vh;
-  background-repeat: no-repeat;
-  background-position-y: 20px;
-}
-
-#order {
+  background-color: rgb(219, 216, 213);
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.sp {
+#header span{
+  color: #333;
+  font-size: 40px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+#header nav{
+  display: flex;
+
+}
+
+#header nav a{
+  margin-right: 50px;
+  text-decoration: none;
+  color: #333;
+}
+
+#header nav a :first-child{
+  color: red;
+}
+
+#main {
+  border-left: 100px;
   height: 500px;
-  width: 40%;
-  padding-top: 30px;
-  display: flexbox;
+  width: auto;
+  background-color: aqua;
+  margin: 20px 200px 100px 200px;
+  align-items: center;
 }
 
-.sp img {
-  height: 200px;
-  width: 100%;
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
 }
-
-.fruit {
-  padding-right: 20px;
+.team {
+  flex: 0 1 32%;
+  height: 250px;
+  border-radius: 5px;
 }
-
-.infor {
-  padding: 10px 20px;
+.team .images {
+  height: 80%;
+  background-color: rgb(113, 221, 240);
 }
-
-.infor .name {
-  color: rgb(41, 115, 175);
-  font-size: 20px;
-}
-
-.infor .price {
-  font-size: 20px;
-}
-
-.rate {
-  height: 50px;
-}
-
-#footer {
-  height: 100px;
-  background-color: #333;
-  line-height: 100px;
-  color: #fff;
+.team .content {
+  height: 20%;
+  padding: 10px;
   text-align: center;
+  font-style: italic;
 }
